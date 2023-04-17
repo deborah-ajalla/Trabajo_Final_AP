@@ -35,12 +35,9 @@ body{
 .form-label{
     color: #952f57;
 }
-
-
 ::placeholder{
     font-size: 15px;
 }
-
 
 #boton_personalizado:hover{
     background:  rgb(168, 29, 124);
