@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Nosotros</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</head>
+
+<body>
+
+    <!-----nav------>
+
+    <div class="row">
+
+        <div class="col text-center " id="col">
+            <img class="img-fluid " id="img1" src="https://www.argentina.gob.ar/sites/default/files/untitled-3-01_2.png"
+                alt="">
+            <h1 class="text-center fw-bold text-white">Argentina Programa 4.0</h1>
+            <h2 class="text-center text-white">Se Parte del Futuro</h2>
+        </div>
+
+    </div>
+    <!-----nav------>
+    <!----nosotros-->
+
+    <header>
+        <div class="absolute">
+            <video onloadedmetadata="this.muted=true" autoplay loop width="100%">
+                <source src="video6.mp4.mp4">
+                tu navegador no es compatible con videos html5
+            </video>
+        </div>
+
+    </header>
+    <!------->
+
+    <!------>
+    <div class="container">
+        <h1><strong>¿Quienes Somos?</strong></h1>
+        <br>
+        <br>
+
+        <div class="content d-flex">
+            <div class="box ">
+                <figure>
+                    <img src="cari.jpg" width="200px" height="200px" position="center">
+
+                </figure>
+                <div class="name">
+                    <h4>Carina Fernandez</h4>
+                    <p>
+                        Soy estudiante de Ing.en Sistemas de Información.
+                        Me defino como una persona perseverante,
+                        apasionada,decidida y con mucha voluntad.
+                        Interesada en el Diseño UX/UI y Diseño Web.
+                        Con ganas de aprender y crecer profesionalmente.
+
+                    </p>
+                </div>
+            </div>
+
+            <div class="box">
+                <figure>
+                    <img src="debo1.jpg" width="200px" height="200px" position="center">
+                </figure>
+
+
+                <div class="name ">
+                    <h4>Deborah Ajalla</h4>
+                    <p>
+                    <ul>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos facilis excepturi obcaecati
+                        ea nobis et, praesentium dolor repudiandae possimus itaque libero impedit dolore? Sequi quia
+                        facilis illum dicta ut atque.</ul>
+                    </p>
+                </div>
+            </div>
+
+            <div class="box">
+                <figure>
+
+                    <img src="Ignacio.jpg" width="200px" height="200px" position="center">
+
+                </figure>
+                <div class="name">
+                    <h4>Manuel Ignacio Quiroga</h4>
+                    <p>
+                        Tengo 37 años.
+                        Soy casado con 2 hijos.
+                        De profesión:Carnicero.
+                        Juego al Basquet.
+                        Me gusta la programación.
+                        Mi mayor aspiración es Trabajar de Programación.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="row text-center">
+            <div class="col-md-12 align-content-center">
+                <a class="btn btn sucess" style="background-color: rgb(168, 29, 124)" role="button" href="index.html">
+                    volver</a>
+            </div>
+
+        </div>
+        <!---fin de nosotros-->
+        <!---->
+        <footer>
+          
+
+        </footer>
+        
+        <!------>
+  
+</body>
+
+</html>
