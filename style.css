@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Quicksand";
+}
+#img1{
+    width: 200px; 
+    height: 70px;
+}
+
+/* cabecera de la pagina*/
+#col{
+    background-color: rgb(168, 29, 124);
+    height: 120px;
+}
+
+.container{
+    max-width: 700px;  
+}
+
+#footer_personalizado{
+    background-color: black;
+}
+#footer_letras{
+    color: white;
+}
+
+#footer_titulo{
+    color:  rgb(168, 29, 124);
+}
+
+
+.body{
+    display: flex;
+    font-family: sans-serif;
+    text-align: center;
+    color:black;
+ 
+}
+.header{
+    width: 100%;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    text-align: center;
+    color:black;
+}
+
+.video{
+    
+    position:absolute;
+    display: flex;
+
+}
+.absolute{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+  .absolute h1{
+     width: 100%;
+     height: auto;
+    margin-bottom: 30px;
+    font-size: 100px;
+    font-weight: 500;
+    z-index:100 ;
+    font-family: Arial, Helvetica, sans-serif;
+    display:flex;
+   
+}
+.container, .box, .content,.titulo{
+    width: 100%;  
+    }
+
+.container{
+    max-width: 1150px;
+    margin: auto;
+    margin-top: 70px;
+    text-align: center;
+    
+    line-height:1.7em;
+    justify-content:center;
+}
+
+.content{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);  
+}
+.box figure{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 45px;
+    display:flex;
+    overflow: hidden;
+    justify-content: center;
+    text-align: center;
+    margin-left: 90px;
+}
+.h1::after{
+    display: block;
+    width: 30px;
+    height: 10px;
+    content: "";
+    margin: auto;
+
+}
+.box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 50%; 
+}
+
+.name{
+    color: black;
+    text-align: center;
+    justify-content: center; 
+}
+@media screen and(max-width:800px){
+ h1{
+    font-size: 50px;
+ }   
+}
+@media screen and (max-width:500px){
+    h1{
+       font-size: 30px;
+       margin-bottom:0;
+    }   
+   }
+   h1::after{
+    display: none;
+   }
